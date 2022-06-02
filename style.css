@@ -15,7 +15,7 @@ body {
 
 html {
   text-align: center; /* define este com o body inline-block para centralizar o body*/
-  background: url('/img/medieval-town.jpeg'); /* background: url('img/cidade.jpeg'); */
+  background: url('img/medieval-town.jpeg'); /* background: url('img/cidade.jpeg'); */
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1vh; /* define o tamanho da fonte raiz e usa rem em todo o arquivo*/
