@@ -71,9 +71,9 @@ Obrigado    <img width="180px" src="https://cursos.alura.com.br/assets/images/ce
 # Desktop:
 <img src="">
 
-# Celular
-<img src="" width="450">
+# Mobile:
+<img src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/8a61c168999855.5b7db13e5afa5%20-%20co%CC%81pia.png?raw=true" width="450">
 
-# Tablet
-<img src="" width="440">
+<img src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/8a61c168999855.5b7db13e5afa5.png?raw=true">
+
 
