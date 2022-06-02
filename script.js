@@ -15,15 +15,15 @@ const palavras = [
   'JAVASCRIPT'
 ]
 
-const inicioJogo = new Audio(`./songs/a-caminho-da-forca-inicio-short.wav`)
-const hanging = new Audio(`./songs/enforcado.wav`)
-const hanging2 = new Audio(`./songs/enforcado2.wav`)
+const inicioJogo = new Audio('./songs/a-caminho-da-forca-inicio-short.wav')
+const hanging = new Audio('./songs/enforcado.wav)
+const hanging2 = new Audio('./songs/enforcado2.wav')
 const somJogando = new Audio('./songs/jogo-rodando.wav')
 const acertou = new Audio('./songs/acertou.wav')
 const errou = new Audio('./songs/errou.wav')
-const somFundo = new Audio(`./songs/inicio-jogo.mp3`)
-const gameOver = new Audio(`./songs/enforcado.wav`)
-const gameOverVoice = new Audio(`./songs/game-over-voice.wav`)
+const somFundo = new Audio('./songs/inicio-jogo.mp3')
+const gameOver = new Audio('./songs/enforcado.wav')
+const gameOverVoice = new Audio('./songs/game-over-voice.wav')
 const vitoria = new Audio('./songs/vitoria.mp3')
 
 hideAll('#contador span')
@@ -227,7 +227,7 @@ function preencherLinhas(linhaNum, linhaLetras) {
     document.querySelector('#teclado--linha' + linhaNum).append(tecla)
   }
   for (let i = 0; i < 6; i++) {
-    vidas.children[i].src = '/img/heart.png'
+    vidas.children[i].src = './img/heart.png'
   }
 }
 
