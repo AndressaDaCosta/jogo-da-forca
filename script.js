@@ -254,49 +254,49 @@ function playSound(status) {
 }
 
 function perdeVidas(pontos) {
-  const lifes = document
-    .querySelector('#hearts')
-    .querySelectorAll('img:not(.esconder)')
+//   const lifes = document
+//     .querySelector('#hearts')
+//     .querySelectorAll('img:not(.esconder)')
 
-  lifes[0].classList.add('esconder')
-  playSound('error')
+//   lifes[0].classList.add('esconder')
+//   playSound('error')
 
-  if (lifes.length === 1) {
-    setTimeout(() => {
-      fimDeJogo()
-    }, 200)
-  }
+//   if (lifes.length === 1) {
+//     setTimeout(() => {
+//       fimDeJogo()
+//     }, 200)
+//   }
 
-  // switch (pontos) {
-  //   case 1:
-  //     hideAll('#heart6')
-  //     playSound('error')
-  //     break
-  //   case 2:
-  //     hideAll('#heart5')
-  //     playSound('error')
-  //     break
-  //   case 3:
-  //     hideAll('#heart4')
-  //     playSound('error')
-  //     break
-  //   case 4:
-  //     hideAll('#heart3')
-  //     playSound('error')
-  //     break
-  //   case 5:
-  //     hideAll('#heart2')
-  //     playSound('error')
-  //     break
-  //   case 6:
-  //     hideAll('#heart1')
-  //     playSound('error')
+   switch (pontos) {
+    case 1:
+       hideAll('#heart6')
+       playSound('error')
+       break
+     case 2:
+       hideAll('#heart5')
+       playSound('error')
+       break
+     case 3:
+     hideAll('#heart4')
+     playSound('error')
+       break
+     case 4:
+      hideAll('#heart3')
+      playSound('error')
+      break
+    case 5:
+      hideAll('#heart2')
+     playSound('error')
+     break
+     case 6:
+      hideAll('#heart1')
+      playSound('error')
 
-  //     setTimeout(() => {
-  //       fimDeJogo()
-  //     }, 1000)
-  //     break
-  // }
+      setTimeout(() => {
+        fimDeJogo()
+      }, 200)
+       break
+   }
 }
 
 function fimDeJogo() {
