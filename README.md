@@ -58,7 +58,7 @@ Obrigado    <img width="180px" src="https://cursos.alura.com.br/assets/images/ce
  </div>
 
    <div style="display:flex;" align="center">
-  <img src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/badge-js.png" width="400"/>
+  <img src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/badge-js.png" width="300"/>
 </div>
 
 
