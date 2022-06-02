@@ -14,6 +14,7 @@ const palavras = [
   'CSS',
   'JAVASCRIPT'
 ]
+entradaJogo()
 
 const inicioJogo = new Audio(`./songs/a-caminho-da-forca-inicio-short.wav`)
 const hanging = new Audio('./songs/enforcado.wav')
