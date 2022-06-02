@@ -15,7 +15,7 @@ const palavras = [
   'JAVASCRIPT'
 ]
 
-const inicioJogo = new Audio('./songs/a-caminho-da-forca-inicio-short.wav')
+const inicioJogo = new Audio(`./songs/a-caminho-da-forca-inicio-short.wav`)
 const hanging = new Audio('./songs/enforcado.wav')
 const hanging2 = new Audio('./songs/enforcado2.wav')
 const somJogando = new Audio('./songs/jogo-rodando.wav')
@@ -26,16 +26,16 @@ const gameOver = new Audio('./songs/enforcado.wav')
 const gameOverVoice = new Audio('./songs/game-over-voice.wav')
 const vitoria = new Audio('./songs/vitoria.mp3')
 
+entradaJogo()
+
 hideAll('#contador span')
 hideAll('#hearts')
 hideAll('#forca')
-entradaJogo()
+
 
 function entradaJogo() {
   inicioJogo.play()
   inicioJogo.loop = false
-  // break
-  // somFundo.play()
 }
 
 document.querySelector('#novo-jogo').addEventListener('click', novoJogo)
