@@ -1,0 +1,139 @@
+body {
+  /* background-color: #19452b95; */
+  background-color: #094d1850;
+  color: #cacaca;
+  font-family: 'Cabin Sketch', 'Arial';
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+html {
+  text-align: center; /* define este com o body inline-block para centralizar o body*/
+  background: url('/img/medieval-town.jpeg'); /* background: url('img/cidade.jpeg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1vh; /* define o tamanho da fonte raiz e usa rem em todo o arquivo*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 8.4rem;
+  font-weight: 100;
+  margin: 2.5rem 0;
+}
+
+h1 img {
+  width: 43vw;
+  margin-top: 1vw;
+}
+
+h2 {
+  font-size: 4.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 100;
+  margin: 1.7rem;
+}
+
+svg {
+  stroke: #cacaca;
+  stroke-width: 1.8; /* stroke-width: 5.8; */
+  stroke-linecap: round;
+  display: block;
+  height: 36vh;
+  /* width: 27vw; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#palavra-chave {
+  font-size: 6.2rem;
+  margin: 2.4rem auto;
+}
+
+#teclado a {
+  font-size: 6.4rem;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
+#teclado a.finalizou {
+  cursor: default; /*reinicia o ponteiro após o jogo acabar para evitar mais cliques*/
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  position: relative; /*quando os botões estão sendo pressionados*/
+  top: 2px;
+}
+
+#teclado .letra-correta {
+  color: #2ecc71; /*letras que pertencem à palavra*/
+  cursor: no-drop;
+}
+
+#teclado .letra-incorreta {
+  color: #ed1632; /*letras que não pertencem à palavra ...  color: #d8334a;*/
+  cursor: no-drop;
+}
+
+#contador {
+  margin-bottom: 1rem;
+}
+
+span {
+  font-size: 3.3rem;
+}
+
+#vitorias,
+#perdas {
+  margin-right: 4rem;
+}
+
+.esconder {
+  display: none;
+}
+
+[status='escapou'] {
+  color: #2ecc71; /* status do tituloJogo*/
+}
+
+[status='enforcado'] {
+  color: #d8334a; /* status do tituloJogo*/
+}
+
+@media (max-width: 40vh) {
+  /*portrait screen*/
+  svg {
+    height: 90vw;
+  }
+}
+@media (max-width: 66vh) {
+  /*portrait screen*/
+  html {
+    font-size: 1.5vw;
+  }
+  h1 img {
+    width: 73vw;
+  }
+}
+@media (max-width: 100vh) {
+  /*portrait screen*/
+  body {
+    width: 100vw;
+  }
+  h1 img {
+    width: 63vw;
+  }
+}
