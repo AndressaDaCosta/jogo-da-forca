@@ -35,6 +35,7 @@ hideAll('#hearts')
 hideAll('#forca')
 
 function entradaJogo() {
+  // inicioJogo.muted = false
   inicioJogo.play()
   inicioJogo.loop = false
 }
