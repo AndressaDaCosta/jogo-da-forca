@@ -227,7 +227,7 @@ function preencherLinhas(linhaNum, linhaLetras) {
     document.querySelector('#teclado--linha' + linhaNum).append(tecla)
   }
   for (let i = 0; i < 6; i++) {
-    vidas.children[i].src = './img/heart.png'
+    vidas.children[i].src = 'img/heart.png'
   }
 }
 
