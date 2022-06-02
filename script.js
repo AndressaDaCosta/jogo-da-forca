@@ -16,7 +16,7 @@ const palavras = [
 ]
 
 const inicioJogo = new Audio('./songs/a-caminho-da-forca-inicio-short.wav')
-const hanging = new Audio('./songs/enforcado.wav)
+const hanging = new Audio('./songs/enforcado.wav')
 const hanging2 = new Audio('./songs/enforcado2.wav')
 const somJogando = new Audio('./songs/jogo-rodando.wav')
 const acertou = new Audio('./songs/acertou.wav')
