@@ -26,9 +26,15 @@ const gameOver = new Audio('./songs/enforcado.wav')
 const gameOverVoice = new Audio('./songs/game-over-voice.wav')
 const vitoria = new Audio('./songs/vitoria.mp3')
 
-inicioJogo.addEventListener('canplaythrough', event => {
+let loaded = false
+document.body.addEventListener('mousemove', function () {
   entradaJogo()
+  loaded = true
 })
+
+// inicioJogo.addEventListener('canplaythrough', event => {
+
+// })
 
 hideAll('#contador span')
 hideAll('#hearts')
