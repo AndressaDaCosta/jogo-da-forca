@@ -1,6 +1,7 @@
-# Alura + Oracle ONE 👩🏻‍💻  <img align="right" src="https://cursos.alura.com.br/assets/images/certificates/new/logo/oracle-one-logo.png"><br><br> [<img src="https://avatars.githubusercontent.com/u/95485809?v=4" width="35" style="border-radius:50%">]("linkedin.com/in/andressa-costa-286173225/") [![linkedin: AndressaDaCosta](https://img.shields.io/badge/-AndressaDaCosta-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/AndressaDaCosta/)](linkedin.com/in/andressa-costa-286173225/)   [![gitHub AndressaDaCosta](https://img.shields.io/github/followers/AndressaDaCosta?label=follow&style=social)](https://github.com/AndressaDaCosta)
+# Alura + Oracle ONE 👩🏻‍💻  <img align="right" src="https://cursos.alura.com.br/assets/images/certificates/new/logo/oracle-one-logo.png"><br><br> 
+[<img src="https://avatars.githubusercontent.com/u/95485809?v=4" width="35" style="border-radius:50%">]("linkedin.com/in/andressa-costa-286173225/") [![linkedin: AndressaDaCosta](https://img.shields.io/badge/-AndressaDaCosta-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/AndressaDaCosta/)](linkedin.com/in/andressa-costa-286173225/)   [![gitHub AndressaDaCosta](https://img.shields.io/github/followers/AndressaDaCosta?label=follow&style=social)](https://github.com/AndressaDaCosta)
 
-# JOGO DA FORCA    [<img src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/favicon2.png?raw=true" width="80">](https://andressadacosta.github.io/jogo-da-forca/)
+# JOGO DA FORCA    [<img src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/favicon2.png?raw=true" width="80">](https://andressadacosta.github.io/jogo-da-forca/)<img width="500" src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/hangman-game.png?raw=true"><img src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/8a61c168999855.5b7db13e5afa5.png?raw=true">
 
 Challenge Oracle ONE Sprint 02: Crie seu próprio jogo da forca com Javascript **#ONENEXTEDUCATION**
 
@@ -74,6 +75,6 @@ Obrigado    <img width="180px" src="https://cursos.alura.com.br/assets/images/ce
 # Mobile:
 <img src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/8a61c168999855.5b7db13e5afa5%20-%20co%CC%81pia.png?raw=true" width="450">
 
-<img src="https://github.com/AndressaDaCosta/jogo-da-forca/blob/main/img/8a61c168999855.5b7db13e5afa5.png?raw=true">
+
 
 
