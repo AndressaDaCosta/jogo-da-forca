@@ -26,10 +26,8 @@ const gameOver = new Audio('./songs/enforcado.wav')
 const gameOverVoice = new Audio('./songs/game-over-voice.wav')
 const vitoria = new Audio('./songs/vitoria.mp3')
 
-let loaded = false
 document.body.addEventListener('mousemove', function () {
   entradaJogo()
-  loaded = true
 })
 
 // inicioJogo.addEventListener('canplaythrough', event => {
@@ -52,9 +50,10 @@ function novoJogo() {
   if (jogoRodando)
     // Caso o último jogo não tenha terminado antes do click de "Novo Jogo"
     desistir()
-
+  // this.removeEventListener('mousemove', entradaJogo)
   jogoRodando = true //Jogo inicia
   inicioJogo.pause() // Pausa som de entrada
+  inicioJogo.muted = true
   somJogando.play()
   somJogando.loop = true
   hanging2.pause() // Pausa o som da forca ao clicar em nova partida
@@ -194,18 +193,30 @@ function enforcado() {
 // Venceu a Partida
 function escapou() {
   jogoRodando = false
+  venceu()
+  removeAllListeners()
   tituloJogo.innerText = 'Você escapou!!'
   tituloJogo.setAttribute('status', 'escapou')
   playSound('success')
   vitorias++
-  removeAllListeners()
   unhideAll('.vitorias')
   document.querySelector('#vitorias').innerText = vitorias
-
+  venceu()
+}
+function venceu() {
   if (vitorias === 6) {
+    jogoRodando = false
+    removeAllListeners()
+    document.querySelector('#novo-jogo').classList.add('esconder')
+    limpaTeclado()
     tituloJogo.innerText = 'VOCÊ VENCEU!!!'
     tituloJogo.setAttribute('status', 'escapou')
     vitoria.play()
+    inicioJogo.muted = true
+
+    setTimeout(() => {
+      location.reload()
+    }, 4000)
   }
 }
 
@@ -266,13 +277,15 @@ function perdeVidas(pontos) {
     .querySelector('#hearts')
     .querySelectorAll('img:not(.esconder)')
 
-  lifes[0].classList.add('esconder')
-  playSound('error')
+  if (lifes.length > 0) {
+    lifes[0].classList.add('esconder')
+    playSound('error')
 
-  if (lifes.length === 1) {
-    setTimeout(() => {
-      fimDeJogo()
-    }, 200)
+    if (lifes.length === 1) {
+      setTimeout(() => {
+        fimDeJogo()
+      }, 200)
+    }
   }
 
   //    switch (pontos) {
@@ -311,8 +324,10 @@ function fimDeJogo() {
   hanging2.pause()
   somJogando.pause()
   gameOverVoice.play()
+  inicioJogo.pause()
   tituloJogo.innerText = 'GAME OVER'
   tituloJogo.setAttribute('status', 'enforcado')
+  document.querySelector('#novo-jogo').classList.add('esconder')
 
   removeAllListeners()
 
