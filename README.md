@@ -16,7 +16,7 @@
 
 ## Resultado do projeto:
 
-[📁 Repositório](https://github.com/AndressaDaCosta/jogo-da-forca) |  [🌎 Página](https://github.com/AndressaDaCosta/jogo-da-forca)
+[📁 Repositório](https://github.com/AndressaDaCosta/jogo-da-forca) |  [🌎 Página](https://andressadacosta.github.io/jogo-da-forca/)
 
   
 ## Descrição:
