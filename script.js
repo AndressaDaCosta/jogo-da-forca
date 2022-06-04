@@ -12,10 +12,28 @@ const palavras = [
   'FORCA',
   'HTML',
   'CSS',
-  'JAVASCRIPT'
+  'JAVASCRIPT',
+  'ALGORITMO',
+  'BROWSER',
+  'HARDWARE',
+  'SOFTWARE',
+  'MOBILE',
+  'RESPONSIVO',
+  'HANGMAN',
+  'ARRAY',
+  'GITHUB',
+  'ONE',
+  'DEVOPS',
+  'FRONTEND',
+  'BACKEND',
+  'DEVELOPER',
+  'AGILITY',
+  'LÓGICA',
+  'LINKEDIN',
+  'SOFTSKILLS'
 ]
 
-const inicioJogo = new Audio(`./songs/a-caminho-da-forca-inicio-short.wav`)
+const inicioJogo = new Audio('./songs/a-caminho-da-forca-inicio-short.wav')
 const hanging = new Audio('./songs/enforcado.wav')
 const hanging2 = new Audio('./songs/enforcado2.wav')
 const somJogando = new Audio('./songs/jogo-rodando.wav')
