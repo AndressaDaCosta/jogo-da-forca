@@ -21,7 +21,7 @@
   
 ## Descrição:
 
-Nessas duas semanas finais trabalhei em um projeto de Jogo da Forca, para pôr em prática o que foi aprendido ao longo da trilha Iniciante em Programação e trabalhei com o sistema ágil de desenvolvimento, utilizando a ferramenta [Trello](https://trello.com/b/19JvaKPf/jogo-da-forca-alura-challenges-oracle-one), [Figma](https://www.figma.com/file/ek5uhIz2fkVmicl3Nj5gSR/Alura-Challenge---Desafio-2---L%C3%B3gica?node-id=10%3A158) e [Discord](https://discord.gg/w2dgEXFgtS). Foi incrível novamente me sentir fazendo parte de um time de desenvolvimento. 👩🏻‍💻
+Nessas duas semanas finais trabalhei em um projeto de Jogo da Forca, para pôr em prática o que foi aprendido ao longo da trilha Iniciante em Programação e trabalhei com o sistema ágil de desenvolvimento, utilizando a ferramenta [Trello](https://trello.com/b/19JvaKPf/jogo-da-forca-alura-challenges-oracle-one), [Figma](https://www.figma.com/file/ek5uhIz2fkVmicl3Nj5gSR/Alura-Challenge---Desafio-2---L%C3%B3gica?node-id=10%3A158) [Discord](https://discord.gg/w2dgEXFgtS) e Photoshop. Foi incrível novamente me sentir fazendo parte de um time de desenvolvimento. 👩🏻‍💻
 
 ## Requisitos: ✅ 100%
 
